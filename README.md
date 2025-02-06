@@ -1,7 +1,14 @@
 # TurtleRaceGame
-It is an game of turtles race ,where you choose how many number of player(turtle) will be racing.  Then the game begins ,in end the winner's name will be dispalyed
+It is an game of turtles race ,where you choose how many number of player(turtle) will be racing.  Then the game begins ,in end the winner's name will be dispalyed.
+This code is written in Python and uses the Turtle Graphics library to simulate a simple turtle race.
 
-The description of program is-
+Turtle Graphics: The code uses the turtle module, a part of the standard Python library, to create a window and draw graphics. In this case, it simulates a race with multiple turtle objects that move randomly.
+
+Random Module: The random module is used to simulate randomness in the turtles’ movements, making each race different.
+
+Time Module: The time.sleep() function is used to pause the execution for a short time before the program finishes, allowing users to see the result.
+
+The detailed description of program is-
 1. Constants and Setup:
 WIDTH and HEIGHT: Define the size of the race area (500x500 pixels).
 COLORS: A list of possible colors for the turtles (red, yellow, green, etc.).
